@@ -32,6 +32,7 @@ public class Document {
         remplacer(debut, fin, texteMaj);
     }
 
+
     @Override
     public String toString() {
         return this.texte;
