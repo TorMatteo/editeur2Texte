@@ -37,7 +37,7 @@ public class Document {
     }
 
     public void clear(){
-        texte = "";
+        texte = "a";
     }
     @Override
     public String toString() {
