@@ -2,6 +2,9 @@ package fr.iut.editeur.commande;
 
 import fr.iut.editeur.document.Document;
 
+/**
+ * Va passer une partie du texte de miniscules en majuscules
+ */
 public class CommandeMajuscule extends CommandeDocument{
 
     public CommandeMajuscule(Document document, String[] parameters) {

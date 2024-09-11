@@ -3,6 +3,9 @@ package fr.iut.editeur.commande;
 import fr.iut.editeur.document.Document;
 import org.mockito.internal.matchers.Null;
 
+/**
+ * Va remplacer une partie du texte par un autre texte
+ */
 public class CommandeRemplacer extends CommandeDocument {
 
     public CommandeRemplacer(Document document, String[] parameters) {

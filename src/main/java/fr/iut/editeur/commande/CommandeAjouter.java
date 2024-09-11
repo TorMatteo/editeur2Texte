@@ -2,6 +2,10 @@ package fr.iut.editeur.commande;
 
 import fr.iut.editeur.document.Document;
 
+/**
+ * Ajouter du texte
+ */
+
 public class CommandeAjouter extends CommandeDocument {
 
 
@@ -9,6 +13,9 @@ public class CommandeAjouter extends CommandeDocument {
         super(document, parameters);
     }
 
+    /**
+     * Va appeler la fonction ajouter de la classe Document puis executer la fonction de la classe qu'elle extends
+     */
     @Override
     public void executer() {
         if(parameters.length < 2) {

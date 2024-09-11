@@ -2,6 +2,9 @@ package fr.iut.editeur.commande;
 
 import fr.iut.editeur.document.Document;
 
+/**
+ * Va effacer une partie du texte (voir tout les textes en fonction des paramètres)
+ */
 public class CommandeEffacer extends CommandeDocument{
 
     public CommandeEffacer(Document document, String[] parameters) {
