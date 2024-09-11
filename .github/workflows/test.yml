@@ -18,5 +18,6 @@ jobs:
         with:
           java-version: 17
           distribution: 'oracle'
+
       - name: maven
-        uses: mvn test
+        run: mvn test
