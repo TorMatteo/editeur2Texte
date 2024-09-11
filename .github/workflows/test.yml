@@ -1,0 +1,22 @@
+name: workflow_test
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+
+  job1:
+    runs-on: unbuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: java
+        uses: actions/setup-java@v4
+        with:
+          java-version: 17
+          distribution: 'oracle'
+      - name: maven
+        uses: mvn test
